@@ -1,6 +1,9 @@
 # Bienvenidos a Sismos-Chile
 
-Esta aplicación muestra los últimos sismos en Chile
-Los datos fueron adquiridos de [Centro Sismológico de Chile](http://www.sismologia.cl)
-
-Copyright Tomás Acuña - 2017 
+Esta aplicaciÃ³n muestra los Ãºltimos sismos en Chile
+Los datos fueron adquiridos de [Centro SismolÃ³gico de Chile](http://www.sismologia.cl)
+```
+library(shiny)
+runGitHub("Sismos-Chile", "Tartomas")
+```
+Copyright TomÃ¡s AcuÃ±a - 2017 
