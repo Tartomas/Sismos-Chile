@@ -1,9 +1,23 @@
 
-library(sp)
-library(rvest)
-library(shiny)
-library(leaflet)
-library(RColorBrewer)
+pks<-c("sp","rvest","shiny","leaflet","RColorBrewer")
+
+suppressMessages({
+   lapply(pks, FUN = function(X) {
+     do.call("require", list(X))
+   })
+})
+
+# install.packages(sp,dependencies = TRUE)
+# install.packages(rvest,dependencies = TRUE)
+# install.packages(shiny,dependencies = TRUE)
+# install.packages(leaflet,dependencies = TRUE)
+# install.packages(RColorBrewer,dependencies = TRUE)
+
+# library(sp)
+# library(rvest)
+# library(shiny)
+# library(leaflet)
+# library(RColorBrewer)
 
 theurl_basic <- "http://www.sismologia.cl"
 theurl <- "http://www.sismologia.cl/links/tabla.html"
