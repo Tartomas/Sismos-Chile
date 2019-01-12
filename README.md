@@ -6,4 +6,3 @@ Los datos fueron adquiridos de [Centro Sismológico de Chile](http://www.sismolo
 library(shiny)
 runGitHub("Sismos-Chile", "Tartomas")
 ```
-Copyright Tomás Acuña - 2017 
